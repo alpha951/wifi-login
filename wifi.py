@@ -28,9 +28,9 @@ def login(username, password):
     login_button = wait.until(EC.element_to_be_clickable((By.ID, 'UserCheck_Login_Button')))
     login_button.click()
 
-login('20uec068', 'password')
+login('20uec068', 'password')  # Replace with your username and password
 
 while True:
-    login('20uec068', 'password')
+    login('20uec068', 'password')  # Replace with your username and password
     time.sleep(3 * 60 * 60)  # Sleep for 3 hours
 # although the duration of one login session is for 4 hours, the script is set to login every 3 hours to avoid any issues
